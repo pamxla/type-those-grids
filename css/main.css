@@ -19,9 +19,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "banner banner banner"
-  "col col2 col3";
+  grid-template-areas: "banner banner banner" "col col2 col3";
   gap: .75rem;
 }
 
@@ -61,4 +59,28 @@ h2 {
 
 p {
   margin: 0 0 0 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+dl {
+  margin: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dt {
+  font-style: italic;
 }
