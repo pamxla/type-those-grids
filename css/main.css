@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather,serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -33,6 +33,12 @@ main {
   grid-area: banner;
   color: #fff;
   align-self: end;
+  padding: 1.5rem 1rem;
+}
+
+.banner-text h2,
+.banner-text p {
+  margin-bottom: 0;
 }
 
 header {
@@ -44,4 +50,15 @@ h1 {
   font-style: italic;
   font-size: 1.8rem;
   margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
+}
+
+p {
+  margin: 0 0 0 1.5rem;
 }
