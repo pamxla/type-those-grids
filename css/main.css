@@ -35,9 +35,13 @@ main {
   align-self: end;
 }
 
+header {
+  padding: 1.5rem 1rem;
+}
+
 h1 {
   font-weight: normal;
   font-style: italic;
   font-size: 1.8rem;
-  marging: 0;
+  margin: 0;
 }
